@@ -8,9 +8,24 @@ h1{
 }
 
 .main_content{
-  height: 100vh;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 6%;
 }
 
 .search__area input{
   margin-right: 2rem;
 }
+
+.results-area{
+  width: 80%;
+  margin-top: 6rem;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3em;
+  list-style: none;
+}
+
